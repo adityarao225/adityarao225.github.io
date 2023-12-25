@@ -17,12 +17,20 @@
             link: "https://github.com/adityarao225/mlproject"
         },  
         {
-            name: "Pokédex",
-            icon: "fa-solid fa-diagram-project",
+            name: "Anime-Face-Generator",
+            icon: "fa-solid fa-theater-masks",
             description:
                 "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
 
-            link: ""
+            link: "https://github.com/adityarao225/Anime-Face-Generator"
+        },
+        {
+            name: "Sales-Insights-Power BI",
+            icon: "fa-solid fa-chart-bar",
+            description:
+                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+
+            link: "https://app.powerbi.com/view?r=eyJrIjoiYzBlZDg2YWItMTJlNi00NzA2LWI3N2UtNzk4NGU3MzI2MDExIiwidCI6IjlkZGFhY2ExLTM4OWYtNGNiMS1hMTEzLTA4MWJlNmNjMjVmYyIsImMiOjZ9"
         },
     ];
 
@@ -103,7 +111,7 @@
             </h3>
         </div>
         <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            href="https://drive.google.com/file/d/1H4XvkTNcWScp6wDrbG5PC82JacVhBhRU/view?usp=sharing"
             target="_blank"
             class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
         >
@@ -113,7 +121,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    Embark on a visionary journey with our pioneering Self-Driving Car model. Intricately crafted through the application of Deep Q-Learning, it seamlessly incorporates sensor and orientation inputs. This cutting-edge project is fueled by PyTorch for neural networks and Kivy for interactive visuals, presenting a harmonious fusion of state-of-the-art AI technologies that shape the future of autonomous vehicles.
+                    Embark on a visionary journey with our pioneering Self-Driving Car model. Intricately crafted through the application of <strong class="text-violet-400">Deep Q-Learning</strong>, it seamlessly incorporates sensor and orientation inputs. This cutting-edge project is fueled by PyTorch for neural networks and Kivy for interactive visuals, presenting a harmonious fusion of state-of-the-art AI technologies that shape the future of autonomous vehicles.
 
                 </p>
             </Step>
@@ -123,20 +131,36 @@
                     Engineered payment default prediction models utilizing <strong class="text-violet-400"> logistic regression, SVM, and XGBoost</strong>. Executed comprehensive data preprocessing and feature engineering in Python for enhanced accuracy, offering valuable insights for risk assessment and financial decision-making.
                 </p>
             </Step>
+            
             <Step step={steps[2]}>
                 <p>
-                    The Pokédex is a <strong class="text-violet-400"
-                        >SvelteKit & TailwindCSS</strong
-                    >
-                    web application, hosted on
-                    <strong class="text-violet-400">Netlify</strong>, that
-                    consumes and caches the
-                    <strong class="text-violet-400">Pokémon API</strong>
-                    to display all Pokémon information. Gotta catch them all!
+                    Created lifelike anime faces with exceptional detail using a  <strong class="text-violet-400">PyTorch-based DCGAN</strong>. Deployed in a Streamlit web app for interactive anime face generation, including loss curve visualizations for model performance insights.
                 </p>
             </Step>
+
+        </div>
+        <div class="grid grid-cols-1 gap-12">
+            <Step step={steps[3]}>
+                <section class="py-10 lg:py-16 flex flex-col gap-16 sm:gap-20 md:gap-24 text-center">
+                    <div class="mx-auto">
+                        <iframe title="Power BI Project" width="1000" height="673.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzBlZDg2YWItMTJlNi00NzA2LWI3N2UtNzk4NGU3MzI2MDExIiwidCI6IjlkZGFhY2ExLTM4OWYtNGNiMS1hMTEzLTA4MWJlNmNjMjVmYyIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
+                    </div>
+                </section>
+                <p>
+                    Through this project, I successfully addressed the complex challenges faced by the computer hardware business. The Power BI dashboard I created empowered the Sales Director with timely and actionable insights, enabling the company to navigate the ever-changing market landscape effectively. This project is a testament to my commitment to excellence in data analysis and my proficiency in utilizing <strong class="text-violet-400"> SQL and Power BI </strong> as essential tools in the pursuit of data-driven solutions.
+                </p>
+            </Step>
+            
         </div>
     </section>
+    <!-- <section class="py-10 lg:py-16 flex flex-col gap-16 sm:gap-20 md:gap-24 text-center">
+        <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+            Power BI Project
+        </h3>
+        <div class="mx-auto">
+            <iframe title="Power BI Project" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzBlZDg2YWItMTJlNi00NzA2LWI3N2UtNzk4NGU3MzI2MDExIiwidCI6IjlkZGFhY2ExLTM4OWYtNGNiMS1hMTEzLTA4MWJlNmNjMjVmYyIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+    </section> -->
     <section
         id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
@@ -187,6 +211,7 @@
                 </div>
             {/each}
         </div>
+
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
             The <span class="text-violet-400">Complete</span> Package
         </h5>
@@ -250,6 +275,7 @@
                 </tbody>
             </table>
         </div>
+
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>

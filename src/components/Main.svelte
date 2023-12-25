@@ -141,6 +141,16 @@
         </div>
         <div class="grid grid-cols-1 gap-12">
             <Step step={steps[3]}>
+                <style>
+                    @media screen and (max-width: 1100px) {
+                        /* Apply styles for screens with a maximum width of 767px (e.g., mobile devices) */
+                        iframe {
+                            width: 125%;
+                            height: 300px; /* Adjust the height as needed for mobile */
+                        }
+                    }
+                </style>
+                
                 <section class="py-10 lg:py-16 flex flex-col gap-16 sm:gap-20 md:gap-24 text-center">
                     <div class="mx-auto">
                         <iframe title="Power BI Project" width="1000" height="673.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzBlZDg2YWItMTJlNi00NzA2LWI3N2UtNzk4NGU3MzI2MDExIiwidCI6IjlkZGFhY2ExLTM4OWYtNGNiMS1hMTEzLTA4MWJlNmNjMjVmYyIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>

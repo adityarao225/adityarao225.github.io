@@ -145,7 +145,7 @@
                     @media screen and (max-width: 1100px) {
                         /* Apply styles for screens with a maximum width of 767px (e.g., mobile devices) */
                         iframe {
-                            width: 125%;
+                            width: 100%;
                             height: 300px; /* Adjust the height as needed for mobile */
                         }
                     }

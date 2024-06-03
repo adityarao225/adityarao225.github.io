@@ -17,7 +17,19 @@
         </div>
         <p class="mx-auto text-sm opacity-70">or</p>
         <p class="">Hugh_jass@gmail.com</p> -->
-        <p><b class="pr-2">Email</b> arao0799@usc.edu</p>
+        <!-- <p><b class="pr-2">Email</b>adityarao2110@gmail.com</p> -->
+        <p>
+            <b class="pr-2">Email</b>
+            <a href="mailto:adityarao2110@gmail.com" target="_blank" class="text-violet-400"
+                >adityarao2110<sup class=""
+                    ><span class="text-xs scale-75 pl-0.5"
+                        ><i
+                            class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"
+                        /></span
+                    ></sup
+                ></a
+            >
+        </p>
         <p>
             <b class="pr-2">GitHub</b>
             <a href=" https://github.com/adityarao225/ " target="_blank" class="text-violet-400"

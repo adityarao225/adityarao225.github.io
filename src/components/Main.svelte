@@ -25,6 +25,32 @@
             link: "https://github.com/adityarao225/Anime-Face-Generator"
         },
         {
+            name: "NeRF",
+            icon: "fa-solid fa-cube",
+
+            description:
+                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+
+            link: "http://127.0.0.1:5501/html/assignment3.html"
+        },
+       
+        {
+            name: "Structure-from-Motion",
+            icon: "fa-solid fa-camera",
+            description:
+                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+
+            link: "http://127.0.0.1:5501/html/assignment2.html"
+        },
+        {
+            name: "Geometry-Processing",
+            icon: "fa-solid fa-eye",
+            description:
+                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+
+            link: "http://127.0.0.1:5501/html/assignment1.html"
+        },
+        {
             name: "Sales-Insights-Power BI",
             icon: "fa-solid fa-chart-bar",
             description:
@@ -139,17 +165,29 @@
             </Step>
 
         </div>
-        <div class="grid grid-cols-1 gap-12">
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[3]}>
-                <style>
-                    @media screen and (max-width: 1100px) {
-                        /* Apply styles for screens with a maximum width of 767px (e.g., mobile devices) */
-                        iframe {
-                            width: 100%;
-                            height: 300px; /* Adjust the height as needed for mobile */
-                        }
-                    }
-                </style>
+                <p>
+                    Implemented and trained Neural Radiance Fields (NeRF) models for high-quality, real-time 3D scene reconstruction from 2D images, leveraging deep neural networks to map spatial coordinates and viewing angles to color and density, signifi cantly improving visual quality and performance
+                </p>
+            </Step>
+            <Step step={steps[4]}>
+                <p>
+
+                    Engineered a Structure from Motion (SFM) algorithm using Python, NumPy, OpenCV, and Matplotlib to accurately reconstruct 3D scenes from 2D images, achieving critical advancements in feature detection and camera pose estimation.
+                </p>
+            </Step>
+            
+            <Step step={steps[5]}>
+                <p>
+                    Implemented advanced 3D mesh processing techniques, including Loop Subdivision for mesh upscaling and Quadric Error Metrics for mesh simplification, utilizing adjacency data structures like half-edge matrices for efficient mesh traversal and computation, enhancing model detail and optimization in a computational geometry project from scratch.
+                    </p>
+            </Step>
+
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-1 gap-12">
+            <Step step={steps[6]}>
                 
                 <section class="py-10 lg:py-16 flex flex-col gap-16 sm:gap-20 md:gap-24 text-center">
                     <div class="mx-auto">
@@ -163,14 +201,6 @@
             
         </div>
     </section>
-    <!-- <section class="py-10 lg:py-16 flex flex-col gap-16 sm:gap-20 md:gap-24 text-center">
-        <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-            Power BI Project
-        </h3>
-        <div class="mx-auto">
-            <iframe title="Power BI Project" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzBlZDg2YWItMTJlNi00NzA2LWI3N2UtNzk4NGU3MzI2MDExIiwidCI6IjlkZGFhY2ExLTM4OWYtNGNiMS1hMTEzLTA4MWJlNmNjMjVmYyIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
-        </div>
-    </section> -->
     <section
         id="about"
         class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
@@ -222,7 +252,7 @@
             {/each}
         </div>
 
-        <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
+        <!-- <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
             The <span class="text-violet-400">Complete</span> Package
         </h5>
         <div
@@ -284,11 +314,11 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </div> -->
 
         <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
             <p>Scroll to see more &rarr;</p>
         </div>
-        <p class="mx-auto">So why not invest?</p>
+  
     </section>
 </main>

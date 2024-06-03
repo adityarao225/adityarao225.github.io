@@ -189,9 +189,9 @@
         <div class="grid grid-cols-1 lg:grid-cols-1 gap-12">
             <Step step={steps[6]}>
                 
-                <section class="py-10 lg:py-16 flex flex-col gap-16 sm:gap-20 md:gap-24 text-center">
+                <section class="py-10 lg:py-16 flex flex-col gap-12 sm:gap-16 md:gap-20 text-center">
                     <div class="mx-auto">
-                        <iframe title="Power BI Project" width="1000" height="673.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzBlZDg2YWItMTJlNi00NzA2LWI3N2UtNzk4NGU3MzI2MDExIiwidCI6IjlkZGFhY2ExLTM4OWYtNGNiMS1hMTEzLTA4MWJlNmNjMjVmYyIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
+                        <iframe title="Power BI Project" width="480" height="500.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzBlZDg2YWItMTJlNi00NzA2LWI3N2UtNzk4NGU3MzI2MDExIiwidCI6IjlkZGFhY2ExLTM4OWYtNGNiMS1hMTEzLTA4MWJlNmNjMjVmYyIsImMiOjZ9" allow = fullscreen></iframe>
                     </div>
                 </section>
                 <p>

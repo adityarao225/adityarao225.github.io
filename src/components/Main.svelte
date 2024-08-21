@@ -109,7 +109,7 @@
                 <br />Machine Learning <span class="poppins text-violet-400">Engineer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400"> interests</span> includes Machine Learning, Deep Learning, Data Science, and Software Development!
+                My <span class="text-violet-400"> interests</span> include Machine Learning, Deep Learning, Data Science, and Software Development!
             </p>
             <button class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
                 <a href="Resume/resume.pdf" target="_blank">

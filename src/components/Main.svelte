@@ -7,7 +7,7 @@
             icon: "fa-solid fa-car",
             description:
                 "Developed an advanced Self-Driving Car model using Deep Q-Learning, integrating sensor and orientation inputs. Implemented with PyTorch for neural networks and Kivy for interactive visuals, showcasing the fusion of cutting-edge AI technologies in autonomous vehicles. Explore the future of transportation through our innovative project.",
-            link: "https://github.com/adityarao225/mlproject"
+            link: "https://github.com/adityarao225/SelfDriving"
         },
         {
             name: "Credit-Card-Default",
@@ -31,7 +31,7 @@
             description:
                 "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
 
-            link: "http://127.0.0.1:5501/html/assignment3.html"
+            link: "https://github.com/adityarao225/CSCI599"
         },
        
         {
@@ -40,7 +40,7 @@
             description:
                 "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
 
-            link: "http://127.0.0.1:5501/html/assignment2.html"
+            link: "https://github.com/adityarao225/CSCI599"
         },
         {
             name: "Geometry-Processing",
@@ -48,16 +48,32 @@
             description:
                 "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
 
-            link: "http://127.0.0.1:5501/html/assignment1.html"
+            link: "https://github.com/adityarao225/CSCI599"
         },
         {
-            name: "Sales-Insights-Power BI",
-            icon: "fa-solid fa-chart-bar",
+            name: "Visual Odometry",
+            icon: "fa-solid fa-camera-retro",
             description:
                 "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
 
-            link: "https://app.powerbi.com/view?r=eyJrIjoiYzBlZDg2YWItMTJlNi00NzA2LWI3N2UtNzk4NGU3MzI2MDExIiwidCI6IjlkZGFhY2ExLTM4OWYtNGNiMS1hMTEzLTA4MWJlNmNjMjVmYyIsImMiOjZ9"
+            link: "https://github.com/adityarao225/VisualOdometry"
         },
+        {
+            name: "Language-Translation",
+            icon: "fa-solid fa-language",
+            description:
+                "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+
+            link: "https://github.com/adityarao225/LanguageTranslation"
+        },
+        // {
+        //     name: "Sales-Insights-Power BI",
+        //     icon: "fa-solid fa-chart-bar",
+        //     description:
+        //         "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
+
+        //     link: "https://app.powerbi.com/view?r=eyJrIjoiYzBlZDg2YWItMTJlNi00NzA2LWI3N2UtNzk4NGU3MzI2MDExIiwidCI6IjlkZGFhY2ExLTM4OWYtNGNiMS1hMTEzLTA4MWJlNmNjMjVmYyIsImMiOjZ9"
+        // },
     ];
 
     let benefits = [
@@ -165,9 +181,29 @@
             </Step>
 
         </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10">
+            <Step step={steps[6]}>
+                <p>
+
+                    Visual Odometry is the process of determining the position and orientation of a robot by analyzing the images captured by its camera(s). This project uses ORB (Oriented FAST and Rotated BRIEF) to detect and compute keypoints and descriptors, and the FLANN (Fast Library for Approximate Nearest Neighbors) based matcher to find matches between them.
+                </p>
+            </Step>
+            
+            <Step step={steps[7]}>
+                <p>
+                    This project focuses on building a transformer-based model for translating text between languages. The primary datasets used are Italian to English and Hindi to English translations, sourced from Kaggle. The project includes data preprocessing, model training, and evaluation, all implemented in a Google Colab notebook using PyTorch.
+                    </p>
+            </Step>
+
+        </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[3]}>
+                <!-- <section class="py-10 lg:py-16 flex flex-col gap-12 sm:gap-16 md:gap-20 text-center">
+                    <div class="mx-auto">
+                        <iframe title="Power BI Project" width="480" height="500.5" src="../../html/assignment3.js" allow = fullscreen></iframe>
+                    </div>
+                </section> -->
                 <p>
                     Implemented and trained Neural Radiance Fields (NeRF) models for high-quality, real-time 3D scene reconstruction from 2D images, leveraging deep neural networks to map spatial coordinates and viewing angles to color and density, signifi cantly improving visual quality and performance
                 </p>
@@ -186,7 +222,22 @@
             </Step>
 
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-1 gap-12">
+        <!-- <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-10">
+            <Step step={steps[6]}>
+                <p>
+
+                    Engineered a Structure from Motion (SFM) algorithm using Python, NumPy, OpenCV, and Matplotlib to accurately reconstruct 3D scenes from 2D images, achieving critical advancements in feature detection and camera pose estimation.
+                </p>
+            </Step>
+            
+            <Step step={steps[7]}>
+                <p>
+                    Implemented advanced 3D mesh processing techniques, including Loop Subdivision for mesh upscaling and Quadric Error Metrics for mesh simplification, utilizing adjacency data structures like half-edge matrices for efficient mesh traversal and computation, enhancing model detail and optimization in a computational geometry project from scratch.
+                    </p>
+            </Step>
+
+        </div> -->
+        <!-- <div class="grid grid-cols-1 lg:grid-cols-1 gap-12">
             <Step step={steps[6]}>
                 
                 <section class="py-10 lg:py-16 flex flex-col gap-12 sm:gap-16 md:gap-20 text-center">
@@ -199,7 +250,7 @@
                 </p>
             </Step>
             
-        </div>
+        </div> -->
     </section>
     <section
         id="about"
